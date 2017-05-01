@@ -166,6 +166,7 @@ fn rotate() {
 	let a = Vector3::unit_x().rotate(consts::PI, Vector3::unit_z());
 	let b = Vector3::unit_x() * -1.0;
 	assert_eq!(a.x, b.x);
+	assert!(a.y.abs() <= 2.2204460492503131e-16);
 }
 
 #[test]

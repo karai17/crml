@@ -1,6 +1,6 @@
 [package]
 name = "crml"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Landon Manning <lmanning17@gmail.com>"]
 
 [dependencies]
